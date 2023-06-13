@@ -1,0 +1,892 @@
+fileFormatVersion: 2
+guid: d579243159c844f4c970cfd810e9f753
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RollingBallSpritesBlur_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 7
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 671df689dca85214e92a094649dfecc6
+      internalID: 397193185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollingBallSpritesBlur_1
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 7
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ae8b4b0040273a4d8a3cd896899420d
+      internalID: -235040665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollingBallSpritesBlur_2
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 7
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dcdf8a7c8e34664ebe23c86c7d1ec7c
+      internalID: -1534055173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollingBallSpritesBlur_3
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 7
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 061482b07597178498e1ca7f79894992
+      internalID: 369711053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollingBallSpritesBlur_4
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 7
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caa952e4efe1bcb4ea60a82f164de1c8
+      internalID: -274539515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollingBallSpritesBlur_5
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 7
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d65f17e207016814ca96d3789bb28a77
+      internalID: -1111164340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollingBallSpritesBlur_6
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 7
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f4be637299eace43ab302df19f95b1f
+      internalID: -472506919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollingBallSpritesBlur_7
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 7
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cc1aa0b91787c74991739f4deda9934
+      internalID: 858337364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollingBallSpritesBlur_8
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 7
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a26cce7986abd0e40a770474c9e630ed
+      internalID: 236909926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollingBallSpritesBlur_9
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 7
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 111e83f71e45d1b41b81bbcac7b7ff5a
+      internalID: 491275237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollingBallSpritesBlur_10
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 7
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e78af3649fb4544ba8e78df80c74990
+      internalID: -60362713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollingBallSpritesBlur_11
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 7
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d814ffac1198abf46bbe88da7be55d7d
+      internalID: 452622241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollingBallSpritesBlur_12
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 7
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53d4678c07741d3458bebc38262ddbd3
+      internalID: 1603919050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollingBallSpritesBlur_13
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 7
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 035db9b23ec8611418f83f599c807f43
+      internalID: 1252084535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollingBallSpritesBlur_14
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 7
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93d33e9ee4c913a48b2616d8e4a87fcb
+      internalID: 1303130853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollingBallSpritesBlur_15
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 7
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ded1d2f42c314d4bb08f6ff59c1b8fd
+      internalID: -1974824115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollingBallSpritesBlur_16
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 7
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3497c38d7fc1003448ad23802bda2f2e
+      internalID: -1075142154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollingBallSpritesBlur_17
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 7
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ef1b4dec31158d4b95535c2cd775fb4
+      internalID: -1737091512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollingBallSpritesBlur_18
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 7
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aac8ee2e7be13b46a17d784a0821c5c
+      internalID: -860068137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollingBallSpritesBlur_19
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 7
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f29c210b9a59a148b751125f856b602
+      internalID: -1814427493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollingBallSpritesBlur_20
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 7
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a515538ab4b98ae45882ee498209965b
+      internalID: -1522691288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollingBallSpritesBlur_21
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 7
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1706a865a24bca449b9d2c7994e67bcf
+      internalID: -314461021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollingBallSpritesBlur_22
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 7
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80985a25bf98a7e4bb3850639b3356bf
+      internalID: 1403170405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollingBallSpritesBlur_23
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 7
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed69cea3aaa88064ba2e12ac273ce090
+      internalID: 594699929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollingBallSpritesBlur_24
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 7
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebc27105de6463b43b1562e270c57a6b
+      internalID: -2136008757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollingBallSpritesBlur_25
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 7
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff7074776694bac4b94b19311392d4af
+      internalID: 976417715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollingBallSpritesBlur_26
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 7
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91b324b61bb0274449cb5d2eabb33ca5
+      internalID: 710796554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollingBallSpritesBlur_27
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 7
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d95183f69853a648aacf397d1b32db8
+      internalID: -616280370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollingBallSpritesBlur_28
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 7
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e35c39ce3ae9fcc49bf000b4fe5288d3
+      internalID: 2110313335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollingBallSpritesBlur_29
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 7
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f38ec3f72c719444294e37a8228f05d5
+      internalID: 706737217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollingBallSpritesBlur_30
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 7
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b779ac49dc8d9b449654a5691b30898
+      internalID: 1855154649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollingBallSpritesBlur_31
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 7
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90274312b4e01e34697d74c89a4c8aca
+      internalID: -1301720359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollingBallSpritesBlur_32
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 7
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 872fc7b7b71ed5246827706a8a92d6a1
+      internalID: -1124859867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollingBallSpritesBlur_33
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 7
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96c6ed91332c8df459f1cb1b94ff537f
+      internalID: -1940659914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RollingBallSpritesBlur_34
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 3
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 056d20c4147e78d4a887be9735ced7f2
+      internalID: -420751880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      RollingBallSpritesBlur_31: -1301720359
+      RollingBallSpritesBlur_32: -1124859867
+      RollingBallSpritesBlur_34: -420751880
+      RollingBallSpritesBlur_4: -274539515
+      RollingBallSpritesBlur_30: 1855154649
+      RollingBallSpritesBlur_1: -235040665
+      RollingBallSpritesBlur_14: 1303130853
+      RollingBallSpritesBlur_2: -1534055173
+      RollingBallSpritesBlur_7: 858337364
+      RollingBallSpritesBlur_9: 491275237
+      RollingBallSpritesBlur_17: -1737091512
+      RollingBallSpritesBlur_18: -860068137
+      RollingBallSpritesBlur_21: -314461021
+      RollingBallSpritesBlur_23: 594699929
+      RollingBallSpritesBlur_19: -1814427493
+      RollingBallSpritesBlur_24: -2136008757
+      RollingBallSpritesBlur_33: -1940659914
+      RollingBallSpritesBlur_22: 1403170405
+      RollingBallSpritesBlur_10: -60362713
+      RollingBallSpritesBlur_0: 397193185
+      RollingBallSpritesBlur_29: 706737217
+      RollingBallSpritesBlur_11: 452622241
+      RollingBallSpritesBlur_8: 236909926
+      RollingBallSpritesBlur_13: 1252084535
+      RollingBallSpritesBlur_15: -1974824115
+      RollingBallSpritesBlur_16: -1075142154
+      RollingBallSpritesBlur_26: 710796554
+      RollingBallSpritesBlur_20: -1522691288
+      RollingBallSpritesBlur_25: 976417715
+      RollingBallSpritesBlur_6: -472506919
+      RollingBallSpritesBlur_3: 369711053
+      RollingBallSpritesBlur_5: -1111164340
+      RollingBallSpritesBlur_28: 2110313335
+      RollingBallSpritesBlur_27: -616280370
+      RollingBallSpritesBlur_12: 1603919050
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

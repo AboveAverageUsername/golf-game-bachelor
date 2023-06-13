@@ -1,0 +1,28 @@
+{
+	"cannon": [
+		{
+			"name": "Limits",
+			"maxSpeed" : 30,
+			"maxHold" : 5,
+			"imageName" : "Cannon_Sprite_Basic"
+		},
+		{
+			"name": "The Basic",
+			"maxSpeed" : 20,
+			"maxHold" : 2,
+			"imageName" : "Cannon_Sprite_Basic"
+		},
+		{
+			"name": "QuickShot",
+			"maxSpeed" : 15,
+			"maxHold" : 1,
+			"imageName" : "Cannon_Sprite_Fast"
+		},
+		{
+			"name": "The Heavy",
+			"maxSpeed" : 30,
+			"maxHold" : 4,
+			"imageName" : "Cannon_Sprite_Strong"
+		}
+	]
+}

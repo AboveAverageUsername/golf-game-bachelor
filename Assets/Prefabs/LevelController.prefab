@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1043898542168871899
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1043898542168871896}
+  - component: {fileID: 1043898542168871897}
+  m_Layer: 0
+  m_Name: LevelController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1043898542168871896
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1043898542168871899}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.22673011, y: -0.32914397, z: 298.77078}
+  m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1043898542168871897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1043898542168871899}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32d6c6b5090edde4c9812092de1ba72e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obstacles: []
+  effectTiles: []
+  teleporters: []
+  birds: []
+  lakes: []
+  coins: []
+  holes: []
+  Tree_1: {fileID: 4901966755934692833, guid: e583d25003ca02e4299f477fea85406b, type: 3}
+  Tree_2: {fileID: 2508189786090994827, guid: f038b3b6774d955428f75734506b8f4c, type: 3}
+  Tree_3: {fileID: 5009477933873254538, guid: 6b855bbbd7d30484e9780cd57979bf10, type: 3}
+  Tree_4: {fileID: 4778643866214331089, guid: 3df98c20913ad5146b4df7e60ed1df90, type: 3}
+  Stump: {fileID: 2181567829766020695, guid: aa7bd39ee1aac5248bd4f0e193460f4c, type: 3}
+  Log: {fileID: 8441931463563304417, guid: 1c53de5067dcfac46bc1b5d8f86e3bce, type: 3}
+  Bush_1: {fileID: 4459639657127749839, guid: 1305efe806b72804a91613de8b253a7b, type: 3}
+  Bush_2: {fileID: 5123274386074239814, guid: f72d8837227e45b4eb21ba06337b3107, type: 3}
+  Bush_3: {fileID: 5249110543490787475, guid: 64096ea052a0fbe4197cef11ba7bf9fa, type: 3}
+  Hole_Yellow: {fileID: 7785350409724652375, guid: db75ef5f8929c3742b26998e4232369c, type: 3}
+  Hole_Orange: {fileID: 7994531001661772213, guid: 8e0cf62e463ade944838729721c242d5, type: 3}
+  Hole_Red: {fileID: 1814649529273444531, guid: 82904972f8d148c42a9026700cacee08, type: 3}
+  Ice_Small_1: {fileID: 942049563194860980, guid: 919e06feb5a3fb846807b72f0f8535ce, type: 3}
+  Ice_Medium_1: {fileID: 7704489958176224407, guid: a34a7f9065589994997fcb93ef795803, type: 3}
+  Ice_Big_1: {fileID: 5025328910799472876, guid: 6232245c6ec5016409bd27938fa04fc7, type: 3}
+  Mud_Small_1: {fileID: 5627824146205089112, guid: c4f02ce0c4d1b57488ef68aa7673ec62, type: 3}
+  Mud_Medium_1: {fileID: 9211364057863881588, guid: 691b31425fb06e445bd9f413afe5f5b1, type: 3}
+  Mud_Big_1: {fileID: 2690062888391522622, guid: 0d3e55588ce3c1d4f8d9c212a1b03494, type: 3}
+  Teleporter: {fileID: 1191754367561501228, guid: 06ac676b97c72e248bd9027241470d55, type: 3}
+  Bird_Flying: {fileID: 7226682209153153474, guid: 2dc667f126a2c6e43812fecbdb097960, type: 3}
+  Lake_Small_1: {fileID: 2047586559473255870, guid: ae147c3942c242c4288bd75ef97e7a7c, type: 3}
+  Lake_Small_2: {fileID: 6646984429111267742, guid: b95d3f518b5f22d4f9eaff82ba62443e, type: 3}
+  Lake_Small_3: {fileID: 5651192026612371979, guid: 238d648bb9145c941ace031fd551e131, type: 3}
+  Lake_Medium_1: {fileID: 963992630430660367, guid: 0f31084f70242164582b28d2a2cd7dad, type: 3}
+  Lake_Medium_2: {fileID: 4703076853175401729, guid: 691e560000e31b140a9ddf62af4c9886, type: 3}
+  Lake_Big_1: {fileID: 7260602181242036655, guid: 211e134581014594e9dae1f656e73dff, type: 3}
+  Coin: {fileID: 5055527775244607844, guid: 51814ea126269f24e9bba043b6aac513, type: 3}
+  levelEndScreen: {fileID: 0}
+  endText: {fileID: 0}
+  retryBtn: {fileID: 0}
+  nextLvlBtn: {fileID: 0}
+  border: {fileID: 0}
+  victoryScreen: {fileID: 0}
+  newRecord: {fileID: 0}
+  scoreText: {fileID: 0}
+  pauseScript: {fileID: 0}
+  levelText: {fileID: 0}
+  audioTracks:
+  - InGameTheme1
+  - InGameTheme1
+  - InGameTheme2
+  - InGameTheme3
+  - InGameTheme4

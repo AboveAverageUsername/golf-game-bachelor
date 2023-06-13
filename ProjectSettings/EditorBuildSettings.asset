@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 29cb62282d7d42c4daa9fd852315fa49
+  - enabled: 1
+    path: Assets/Scenes/StageSelect.unity
+    guid: 2e3ae6fe765b64d448e1c70c2ece564c
+  - enabled: 1
+    path: Assets/Scenes/Leaderboard.unity
+    guid: 2c28cdb3ceac2324d8eaa93f2a9178bf
+  - enabled: 1
+    path: Assets/Scenes/StageEditor.unity
+    guid: 594d93ac6f9cb1d4a984c1f334777b16
+  - enabled: 1
+    path: Assets/Scenes/Controls.unity
+    guid: 161e31ec0de48a64697b99bd6837cc11
+  - enabled: 1
+    path: Assets/Scenes/Help.unity
+    guid: cc19d955f619f604497d5e1f1cb0769f
+  - enabled: 1
+    path: Assets/Scenes/Maze Hill.unity
+    guid: e0ce2d0b7ef19b94784d063a275f4a21
+  - enabled: 1
+    path: Assets/Scenes/StageCustom.unity
+    guid: ca71da4aaf3906d4196d0e462557a168
+  m_configObjects: {}

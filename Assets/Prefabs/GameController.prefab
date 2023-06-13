@@ -1,0 +1,254 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1314250034361296402
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1314250034361296405}
+  - component: {fileID: 1314250034361296404}
+  - component: {fileID: 7288267304050443173}
+  m_Layer: 0
+  m_Name: GameController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1314250034361296405
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1314250034361296402}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.0830282, y: -0.47119376, z: -0.03246346}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1314250034361296404
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1314250034361296402}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46f827194454b084f92d4d6aeefc2e36, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data:
+    playerName: Player
+    stageName: 
+    stageLevel: 0
+    playerScore: 0
+    audioMuted: 0
+    musicVolume: 50
+    soundEffectsVolume: 50
+    isFullScreen: 0
+    leaderboard:
+    - playerName: 
+      playerScore: 0
+      stageName: 
+    - playerName: 
+      playerScore: 0
+      stageName: 
+    - playerName: 
+      playerScore: 0
+      stageName: 
+    - playerName: 
+      playerScore: 0
+      stageName: 
+    - playerName: 
+      playerScore: 0
+      stageName: 
+    - playerName: 
+      playerScore: 0
+      stageName: 
+    - playerName: 
+      playerScore: 0
+      stageName: 
+    - playerName: 
+      playerScore: 0
+      stageName: 
+    - playerName: 
+      playerScore: 0
+      stageName: 
+    - playerName: 
+      playerScore: 0
+      stageName: 
+    customStages: []
+  chosenStage:
+    stageName: 
+    stagePreview: 
+    numOfCoins: 0
+    allElements: []
+  fileName: data.save
+  gameStages: []
+  cursorImage: {fileID: 0}
+  customStageName: StageCustom
+--- !u!114 &7288267304050443173
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1314250034361296402}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db6aac5cb45e9a24fa1fb38622d0bbf8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  musicMixerGroup: {fileID: 4317072758042157868, guid: c4cf818fe81cb3040b6d7be428c054a2, type: 2}
+  soundEffectsMixerGroup: {fileID: -6336849585383776895, guid: c4cf818fe81cb3040b6d7be428c054a2, type: 2}
+  masterMixerGroup: {fileID: 24300002, guid: c4cf818fe81cb3040b6d7be428c054a2, type: 2}
+  sounds:
+  - audioType: 1
+    source: {fileID: 0}
+    clipName: MainTheme
+    audioClip: {fileID: 8300000, guid: fcf6d4ec2d61a574d9e8e3f7f6391af8, type: 3}
+    isLoop: 1
+    playOnAwake: 0
+    volume: 0.25
+  - audioType: 1
+    source: {fileID: 0}
+    clipName: InGameTheme1
+    audioClip: {fileID: 8300000, guid: d5c691b9456eb274fa7055350cdc20ac, type: 3}
+    isLoop: 1
+    playOnAwake: 0
+    volume: 0.25
+  - audioType: 1
+    source: {fileID: 0}
+    clipName: InGameTheme2
+    audioClip: {fileID: 8300000, guid: e15fc641d938c88479f888c2a1d61b20, type: 3}
+    isLoop: 1
+    playOnAwake: 0
+    volume: 0.25
+  - audioType: 1
+    source: {fileID: 0}
+    clipName: InGameTheme3
+    audioClip: {fileID: 8300000, guid: cf9ee38156004da44a9ff6933da56cdb, type: 3}
+    isLoop: 1
+    playOnAwake: 0
+    volume: 0.25
+  - audioType: 1
+    source: {fileID: 0}
+    clipName: InGameTheme4
+    audioClip: {fileID: 8300000, guid: 646ce816a42624942ada88c07e944caa, type: 3}
+    isLoop: 1
+    playOnAwake: 0
+    volume: 0.3
+  - audioType: 0
+    source: {fileID: 0}
+    clipName: BtnClk
+    audioClip: {fileID: 8300000, guid: c269915ccd87a6147a297adfbfccae14, type: 3}
+    isLoop: 0
+    playOnAwake: 0
+    volume: 0.3
+  - audioType: 0
+    source: {fileID: 0}
+    clipName: CannonFire
+    audioClip: {fileID: 8300000, guid: 8f88e8be8004d414e8215fffc2390c4b, type: 3}
+    isLoop: 0
+    playOnAwake: 0
+    volume: 0.3
+  - audioType: 0
+    source: {fileID: 0}
+    clipName: TreeHit
+    audioClip: {fileID: 8300000, guid: 5bddd1b371516f1429f9b0d85dcd4d79, type: 3}
+    isLoop: 0
+    playOnAwake: 0
+    volume: 0.3
+  - audioType: 0
+    source: {fileID: 0}
+    clipName: BushHit
+    audioClip: {fileID: 8300000, guid: 518a1bad2909fe541a69edaa81614aa5, type: 3}
+    isLoop: 0
+    playOnAwake: 0
+    volume: 0.3
+  - audioType: 0
+    source: {fileID: 0}
+    clipName: WaterPlup
+    audioClip: {fileID: 8300000, guid: d8a6d2f746852cf4dae3f04341c74133, type: 3}
+    isLoop: 0
+    playOnAwake: 0
+    volume: 0.5
+  - audioType: 0
+    source: {fileID: 0}
+    clipName: HoleDrop
+    audioClip: {fileID: 8300000, guid: 1869a1e49d9a9b44c94fd14c7d9e5bee, type: 3}
+    isLoop: 0
+    playOnAwake: 0
+    volume: 0.3
+  - audioType: 0
+    source: {fileID: 0}
+    clipName: HoleHit
+    audioClip: {fileID: 8300000, guid: 814a37deb3080c34fb20393c28686e1f, type: 3}
+    isLoop: 0
+    playOnAwake: 0
+    volume: 0.3
+  - audioType: 0
+    source: {fileID: 0}
+    clipName: CoinPickUp
+    audioClip: {fileID: 8300000, guid: 4209590805fb98b46a288d0ada432bc6, type: 3}
+    isLoop: 0
+    playOnAwake: 0
+    volume: 0.3
+  - audioType: 0
+    source: {fileID: 0}
+    clipName: Teleport
+    audioClip: {fileID: 8300000, guid: 2c9df0ab829ae504cbde8e04887882f4, type: 3}
+    isLoop: 0
+    playOnAwake: 0
+    volume: 0.3
+  - audioType: 0
+    source: {fileID: 0}
+    clipName: BirdPickUp
+    audioClip: {fileID: 8300000, guid: a8a69f23ee5f19143a7adf92eb14c8c6, type: 3}
+    isLoop: 0
+    playOnAwake: 0
+    volume: 0.3
+  - audioType: 0
+    source: {fileID: 0}
+    clipName: GameOver
+    audioClip: {fileID: 8300000, guid: a579c5ba76b1eb64a837e4701da15ceb, type: 3}
+    isLoop: 0
+    playOnAwake: 0
+    volume: 0.3
+  - audioType: 0
+    source: {fileID: 0}
+    clipName: ResetBall
+    audioClip: {fileID: 8300000, guid: 571b605753a5e824296cff41ce67c0b8, type: 3}
+    isLoop: 0
+    playOnAwake: 0
+    volume: 0.3
+  - audioType: 0
+    source: {fileID: 0}
+    clipName: WinJingle
+    audioClip: {fileID: 8300000, guid: ead90162f541ae648ac980b0b5f4b390, type: 3}
+    isLoop: 0
+    playOnAwake: 0
+    volume: 0.3
+  - audioType: 0
+    source: {fileID: 0}
+    clipName: PlacementFail
+    audioClip: {fileID: 8300000, guid: c7b942d7d849ad74fbd678c449ae5f72, type: 3}
+    isLoop: 0
+    playOnAwake: 0
+    volume: 0.3
+  trackPlaying:
+    audioType: 0
+    source: {fileID: 0}
+    clipName: 
+    audioClip: {fileID: 0}
+    isLoop: 0
+    playOnAwake: 0
+    volume: 0.5

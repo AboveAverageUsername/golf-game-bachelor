@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Hole
+  - Lake
+  - Ice
+  - Mud
+  - Hole_Red
+  - Hole_Orange
+  - Hole_Yellow
+  - Teleporter
+  - Coin_Gold
+  - Bird
+  - Obstacle
+  - Tree
+  - Coin_Red
+  - Coin_Blue
+  - Coin_Grey
+  - Border
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - EditorSelect
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: StageTiles
+    uniqueID: 464453533
+    locked: 0
+  - name: WaterIceMud
+    uniqueID: 1749894955
+    locked: 0
+  - name: Teleporter
+    uniqueID: 923178599
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Obstacles
+    uniqueID: 1469592893
+    locked: 0
+  - name: Trees
+    uniqueID: 1566159929
+    locked: 0
+  - name: Bird
+    uniqueID: 4266030193
+    locked: 0
+  - name: UI
+    uniqueID: 2474120621
+    locked: 0
+  - name: Stamp
+    uniqueID: 4199687603
+    locked: 0
